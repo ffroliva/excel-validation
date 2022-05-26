@@ -1,0 +1,19 @@
+serve:
+  port: 8080
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+spring:
+  profiles:
+    active: h2
+
+
+  servlet:
+# Multipart configuration
+    multipart:
+      enabled: true
+      max-file-size: 2MB
+      max-request-size: 10MB

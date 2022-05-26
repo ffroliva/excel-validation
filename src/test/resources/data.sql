@@ -1,0 +1,1 @@
+INSERT INTO person (name, date_of_birth) VALUES ('John', '2020-10-10');
